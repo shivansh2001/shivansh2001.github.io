@@ -3,7 +3,6 @@ html{
 }
 
 #container {
-    /* border: 16px solid grey; */
     background: url('../img/bg.png') no-repeat center center/cover;
     font-family: 'Montserrat', sans-serif;
 }
@@ -13,7 +12,6 @@ html{
     align-items: center;
     position: sticky;
     top: 0px;
-    /* border-bottom: 4px solid white; */
 }
 
 #navbar::before {
@@ -45,7 +43,6 @@ html{
     padding: 3px 22px;
     border-radius: 20px;
     text-decoration: none;
-    /* transition: 15px; */
 }
 
 #navbar ul li a:hover,
@@ -128,12 +125,11 @@ html{
     align-items: center;
     display: flex;
     justify-content: center;
-    font-size: 40px;
+    font-size: 30px;
 
 }
 
 .about p:hover{
-    /* transform: translate(12px, 12px); */
     border: 10px solid black;
     color: white;
     background-color: black;
@@ -181,10 +177,8 @@ html{
 
 .qualification ul li:hover{
     transform: translate(12px, 12px);
-    
 
 }
-
 
 #skill-section {
     height: 700px;
@@ -213,8 +207,6 @@ html{
 .skills ul:hover{
     color: white;
     background-color: black;
-    /* border: 6px solid white; */
-    /* transform: translate(12px, 12px); */
     border-radius: 40px;
     opacity: 0.7;
 }
