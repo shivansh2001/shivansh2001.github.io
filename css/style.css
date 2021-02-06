@@ -2,7 +2,7 @@ html{
     scroll-behavior: smooth;
 }
 
-#container {
+body {
     background: url('../img/bg.png') no-repeat center center/cover;
     font-family: 'Montserrat', sans-serif;
 }
@@ -12,19 +12,10 @@ html{
     align-items: center;
     position: sticky;
     top: 0px;
-}
-
-#navbar::before {
-    content: "";
     background-color: black;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
     opacity: 0.5;
 }
+
 
 
 #navbar ul {
@@ -233,4 +224,21 @@ footer {
 
 .center{
     size: 8px;
+}
+
+.center i{
+    display: inline-block;
+    color: white;
+    size: 10px;
+}
+.center a{
+    size: 10px;
+    color: white;
+    padding: 2px;
+    text-decoration: none;
+}
+
+.center a:hover{
+    color: royalblue;
+    font-weight: 800;
 }
